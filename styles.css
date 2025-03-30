@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body {
+    background-color: rgb(253, 253, 253);
+    color: rgb(20, 20, 20);
+
+    /* font-size: 16px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    font-family: "Winky Sans", sans-serif; */
+    font: bold 16px "Winky Sans", sans-serif;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 750px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+
+.info-text {
+    margin-left:40px;
+}
+
+.info p {
+    color: rgb(32, 32, 32);
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover {
+    color:blueviolet;
+    text-decoration: underline;
+    
+}
+a:active {
+    color: red;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+.list li {
+    color: #5d5d5e;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.308);
+    padding: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: grey;
+}
+.table tr:nth-child(odd) {
+    background: rgb(191, 231, 198);
+    
+}
+
+/* .social {
+    background: rgb(240, 234, 234);
+    padding: 15px 40px;
+    border: 3px solid black;
+    border-right-color: grey;
+    border-left-color: grey;
+    margin: 20px;
+} */
+
+.link-list {
+    list-style: decimal; 
+}
+.link-list li {
+
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.308);
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border:none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+    color:black;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+    background: transparent;
+}
+
+.btn {
+    background:black;
+    padding: 15px 20px;
+    color: white;
+    border:none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background: grey;
+}
+    
+  
